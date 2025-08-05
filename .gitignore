@@ -1,0 +1,75 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/
+
+# Gradle (if you ever use it)
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Logs
+*.log
+logs/
+spring.log
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+.loadpath
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+*.orig
+
+# Test output
+test-output/
+
+# Env files
+.env
+
+# Backup files
+*.bak
+*.swp
+*.swo
+*.tmp
+
+# Node/npm if you use frontend
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Java-specific
+*.class
+
+# Local database files
+*.h2.db
+*.mv.db
+
+# Others
+*.jar
+*.war
+*.ear
+
+.metadata/
+
+bin/
+
+echo ".metadata/" >> .gitignore
+.metadata/
