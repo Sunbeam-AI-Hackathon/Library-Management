@@ -10,4 +10,5 @@ import java.util.List;
 @Repository
 public interface CopyRepository extends JpaRepository<Copy, Integer> {
     List<Copy> findByBook(Books book);
+    List<Copy> findByRack(int rack);
 }
